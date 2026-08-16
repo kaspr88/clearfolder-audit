@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClearFolder Audit — Read-only Windows folder cleanup reports</title>
+  <meta name="description" content="ClearFolder Audit is a portable read-only Windows tool that creates folder audit reports, duplicate checks, CSV exports, and a Safe Cleanup Plan before cleanup.">
+  <style>
+    :root { --blue:#2d6fdc; --dark:#15213a; --muted:#60708a; --line:#e4e8f0; --bg:#f7f9fc; --green:#0a8754; --warn:#fff8e6; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Segoe UI, Arial, sans-serif; color:var(--dark); background:#fff; line-height:1.55; }
+    .hero { background: linear-gradient(135deg, #eef5ff, #ffffff); padding:64px 22px; border-bottom:1px solid var(--line); }
+    .wrap { max-width:1040px; margin:0 auto; }
+    h1 { font-size:48px; line-height:1.05; margin:0 0 18px; letter-spacing:-1px; }
+    h2 { font-size:30px; margin:42px 0 12px; }
+    h3 { margin:0 0 8px; }
+    p.lead { font-size:21px; color:var(--muted); max-width:760px; }
+    .buttons { margin-top:28px; display:flex; gap:14px; flex-wrap:wrap; }
+    .btn { display:inline-block; padding:13px 18px; border-radius:9px; text-decoration:none; font-weight:700; border:1px solid var(--blue); }
+    .btn.primary { background:var(--blue); color:white; }
+    .btn.secondary { color:var(--blue); background:white; }
+    .section { padding:42px 22px; }
+    .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:18px; }
+    .card { border:1px solid var(--line); border-radius:14px; padding:20px; background:white; box-shadow:0 4px 16px rgba(20,40,80,.04); }
+    .muted { color:var(--muted); }
+    .check { color:var(--green); font-weight:700; }
+    .note { background:var(--warn); border:1px solid #ffe0a3; border-radius:12px; padding:16px; }
+    .compare { width:100%; border-collapse:collapse; margin-top:16px; }
+    .compare th, .compare td { border:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; }
+    .compare th { background:var(--bg); }
+    code { background:#f2f4f8; padding:2px 5px; border-radius:4px; }
+    footer { padding:28px 22px; background:var(--bg); color:var(--muted); border-top:1px solid var(--line); }
+    @media (max-width:800px) { h1 { font-size:36px; } .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="wrap">
+      <p class="muted"><strong>ClearFolder Audit 0.2.0</strong> · Portable Windows app · Read-only by design</p>
+      <h1>Clean up folders with evidence, not guesswork.</h1>
+      <p class="lead">ClearFolder Audit scans a Windows folder and creates a safe cleanup report: largest subfolders, biggest files, exact duplicates, empty folders, file types, file age, HTML/CSV exports, and a manual Safe Cleanup Plan.</p>
+      <div class="buttons">
+        <a class="btn primary" href="https://kasprian.gumroad.com/l/clearfolder-audit">Get the supporter download — $9</a>
+        <a class="btn secondary" href="https://github.com/kaspr88/clearfolder-audit">View source on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card"><h3><span class="check">✓</span> Read-only by design</h3><p>No delete, move, rename, upload, or hidden cleanup actions.</p></div>
+        <div class="card"><h3><span class="check">✓</span> Safe Cleanup Plan</h3><p>Turns scan data into a manual review checklist before you touch files.</p></div>
+        <div class="card"><h3><span class="check">✓</span> Evidence exports</h3><p>Export a visual HTML report and CSV files for spreadsheet review.</p></div>
+      </div>
+
+      <h2>Who it is for</h2>
+      <p>Use ClearFolder Audit when a folder cleanup needs a report first: shared folders, client/project archives, office folders, old backups, or messy Downloads/Desktop folders where deletion should be reviewed before action.</p>
+
+      <h2>What it finds</h2>
+      <div class="grid">
+        <div class="card"><h3>Largest folders/files</h3><p>See the folders and files responsible for most of the space, including percent of total size.</p></div>
+        <div class="card"><h3>Exact duplicates</h3><p>Detect duplicate groups using SHA-256 hashes. Review manually before cleanup.</p></div>
+        <div class="card"><h3>Empty and old items</h3><p>Find empty folders and older large files that may deserve manual review.</p></div>
+      </div>
+
+      <h2>Why not just use WizTree or TreeSize?</h2>
+      <table class="compare">
+        <tr><th>Traditional disk analyzers</th><th>ClearFolder Audit</th></tr>
+        <tr><td>Great for fast disk analysis and visual exploration.</td><td>Focused on a simple, exportable evidence package before cleanup.</td></tr>
+        <tr><td>Often optimized for power users.</td><td>Designed to create a report you can send to a client, manager, or non-technical reviewer.</td></tr>
+        <tr><td>May include delete/cleanup workflows.</td><td>No cleanup automation by design; cleanup remains manual and reviewed.</td></tr>
+      </table>
+
+      <h2>Safety and trust</h2>
+      <div class="note">
+        <p><strong>Important:</strong> the current Windows EXE is unsigned, so Windows SmartScreen may warn. The source code, sample report, and release notes are public on GitHub so you can inspect what the app does.</p>
+        <p><a href="https://github.com/kaspr88/clearfolder-audit">GitHub repository</a> · <a href="https://github.com/kaspr88/clearfolder-audit/releases/tag/v0.2.0">Release notes</a> · <a href="https://github.com/kaspr88/clearfolder-audit/blob/main/demo/sample-report.html">Sample report</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">ClearFolder Audit · MIT-licensed source · Supporter download on Gumroad</div>
+  </footer>
+</body>
+</html>
