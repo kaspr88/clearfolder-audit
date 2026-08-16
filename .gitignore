@@ -1,0 +1,11 @@
+dist/
+build/
+bin/
+obj/
+*.user
+*.suo
+*.pdb
+*.cache
+*.log
+test-data/
+*.zip
