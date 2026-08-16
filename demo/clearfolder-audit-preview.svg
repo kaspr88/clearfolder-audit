@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="ClearFolder Audit sample report preview">
+  <rect width="960" height="540" fill="#f7f8fb"/>
+  <rect x="40" y="34" width="880" height="472" rx="16" fill="#ffffff" stroke="#d8deea"/>
+  <text x="72" y="82" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#1d2738">ClearFolder Audit</text>
+  <text x="72" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#526070">Read-only folder audit report and safe cleanup plan</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="72" y="142" width="150" height="72" rx="10" fill="#f4f7ff" stroke="#d8deea"/>
+    <text x="92" y="170" font-size="14" fill="#53606f">Total size</text>
+    <text x="92" y="198" font-size="24" font-weight="700" fill="#1d2738">3.97 KB</text>
+    <rect x="238" y="142" width="150" height="72" rx="10" fill="#f4f7ff" stroke="#d8deea"/>
+    <text x="258" y="170" font-size="14" fill="#53606f">Files</text>
+    <text x="258" y="198" font-size="24" font-weight="700" fill="#1d2738">4</text>
+    <rect x="404" y="142" width="185" height="72" rx="10" fill="#f4f7ff" stroke="#d8deea"/>
+    <text x="424" y="170" font-size="14" fill="#53606f">Duplicate groups</text>
+    <text x="424" y="198" font-size="24" font-weight="700" fill="#1d2738">1</text>
+    <rect x="605" y="142" width="205" height="72" rx="10" fill="#fff7e8" stroke="#efd59d"/>
+    <text x="625" y="170" font-size="14" fill="#815d17">Safe cleanup items</text>
+    <text x="625" y="198" font-size="24" font-weight="700" fill="#8a5b00">3</text>
+    <text x="72" y="260" font-size="20" font-weight="700" fill="#1d2738">Top folders by size</text>
+    <text x="72" y="310" font-size="14" fill="#526070">A</text>
+    <rect x="140" y="292" width="620" height="24" rx="4" fill="#e9eefb"/>
+    <rect x="140" y="292" width="620" height="24" rx="4" fill="#4f7cff"/>
+    <text x="775" y="310" font-size="14" fill="#526070">99.04%</text>
+    <text x="72" y="354" font-size="14" fill="#526070">B</text>
+    <rect x="140" y="336" width="620" height="24" rx="4" fill="#e9eefb"/>
+    <rect x="140" y="336" width="18" height="24" rx="4" fill="#4f7cff"/>
+    <text x="775" y="354" font-size="14" fill="#526070">0.96%</text>
+    <text x="72" y="410" font-size="20" font-weight="700" fill="#1d2738">Safe cleanup plan</text>
+    <rect x="72" y="432" width="760" height="1" fill="#d8deea"/>
+    <text x="92" y="463" font-size="14" fill="#1d2738">Priority 1 - Duplicate review - manual verification before deleting anything</text>
+    <text x="92" y="492" font-size="14" fill="#1d2738">Priority 3 - Empty folder - review manually before removing</text>
+  </g>
+</svg>
